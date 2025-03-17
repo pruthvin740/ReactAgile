@@ -1,7 +1,6 @@
 {  
-  "homepage": ".",
-  "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
-  "license": "MIT",
+  "name": "mycapstone",
+  "version": "3.2.1",
   "private": true,
   "dependencies": {
     "@coreui/chartjs": "^2.0.0",
