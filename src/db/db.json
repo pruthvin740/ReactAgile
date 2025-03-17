@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee One",
+      "email": "employee1@gmail.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee Two",
+      "email": "employee2@gmail.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Lohith",
+      "email": "lohith123@gmail.com",
+      "password": "password3",
+      "role": "employee",
+      "id": 4
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Scrum Team D"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-02-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-26"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-03"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-02-26"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "New Task Title",
+      "description": "New Task Description",
+      "status": "New",
+      "scrumId": "4",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "New",
+          "date": "2025-03-15"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
